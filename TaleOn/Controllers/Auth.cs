@@ -1,4 +1,5 @@
 ﻿using AccessData.Repos.IRepo;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Models.DTOs;
 using TaleOn.Services.ControllerService.IControllerService;
@@ -7,7 +8,7 @@ namespace TaleOn.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthUserController(IAuthService authService,IOtpService otpService) : ControllerBase
+    public class AuthUserController(IAuthService authService,IOtpService otpService,UserManager<Models.Entities.ApplicationUser> _userManager) : ControllerBase
     {
 
         [HttpPost("login")]
@@ -42,6 +43,14 @@ namespace TaleOn.Controllers
         {
             var isValid = await otpService.VerifyOtpAsync(dto.UserId, dto.OtpCode);
             if (!isValid) return BadRequest(new { Message = "Invalid or expired OTP." });
+
+            var user = await _userManager.FindByIdAsync(dto.UserId);
+            if (user == null)
+                return NotFound(new { Message = "User not found." });
+
+            user.EmailConfirmed = true;
+            await _userManager.UpdateAsync(user);
+
             return Ok(new { Message = "Email confirmed successfully." });
         }
 

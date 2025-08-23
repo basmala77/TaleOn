@@ -125,11 +125,11 @@ namespace AccessData.Repos
                     return userDto;
                 }
 
-                // لو كل حاجة تمام
                 var otp = await otpService.GenerateOtpAsync(user.Id);
                 emailSend.SendEmail(user.Email, "Confirm your email", $"Welcome {user.Name}! \n Please confirm your email with this code: {otp}");
 
                 userDto = mapper.Map<UserDTO>(user);
+                userDto.Success = true;
             }
             catch (Exception ex)
             {

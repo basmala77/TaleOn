@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaleOn.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70a9f1941c8844883153a7c4a42e20be0d56a4c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+068cfe0e0fcfa1bcddf65123245b67f159e19d5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaleOn.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaleOn.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
