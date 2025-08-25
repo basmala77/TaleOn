@@ -371,4 +371,3 @@ C:\Users\USERR\Desktop\TaleOn\TaleOn\obj\Debug\net9.0\TaleOn.genruntimeconfig.ca
 C:\Users\USERR\Desktop\TaleOn\TaleOn\obj\Debug\net9.0\ref\TaleOn.dll
 C:\Users\USERR\Desktop\TaleOn\TaleOn\bin\Debug\net9.0\TaleOn.staticwebassets.runtime.json
 C:\Users\USERR\Desktop\TaleOn\TaleOn\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
-C:\Users\USERR\Desktop\TaleOn\TaleOn\obj\Debug\net9.0\compressed\j29q0t4ho2-v20gtye4jv.gz

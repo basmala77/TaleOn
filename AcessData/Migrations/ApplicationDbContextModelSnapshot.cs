@@ -269,8 +269,8 @@ namespace AccessData.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
-                    b.Property<int>("ImageId")
-                        .HasColumnType("int");
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -281,8 +281,6 @@ namespace AccessData.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ImageId");
 
                     b.HasIndex("ParentId");
 
@@ -319,17 +317,12 @@ namespace AccessData.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
-                    b.Property<int>("ChildrenCount")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ImageId")
-                        .HasColumnType("int");
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.HasIndex("ImageId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -387,31 +380,13 @@ namespace AccessData.Migrations
 
             modelBuilder.Entity("Models.Entities.Child", b =>
                 {
-                    b.HasOne("Models.Entities.Image", "Image")
-                        .WithMany()
-                        .HasForeignKey("ImageId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Models.Entities.ApplicationUser", "Parent")
                         .WithMany("Children")
                         .HasForeignKey("ParentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Image");
-
                     b.Navigation("Parent");
-                });
-
-            modelBuilder.Entity("Models.Entities.ApplicationUser", b =>
-                {
-                    b.HasOne("Models.Entities.Image", "Image")
-                        .WithMany()
-                        .HasForeignKey("ImageId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.Navigation("Image");
                 });
 
             modelBuilder.Entity("Models.Entities.ApplicationUser", b =>

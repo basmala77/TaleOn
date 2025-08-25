@@ -29,17 +29,17 @@ namespace AccessData
          .HasForeignKey(c => c.ParentId)
          .OnDelete(DeleteBehavior.Cascade);
 
-         builder.Entity<Child>()
-        .HasOne(c => c.Image)
-        .WithMany()
-        .HasForeignKey(c => c.ImageId)
-        .OnDelete(DeleteBehavior.Cascade);
+       //  builder.Entity<Child>()
+       // .HasOne(c => c.Image)
+       // .WithMany()
+       // .HasForeignKey(c => c.ImageId)
+       // .OnDelete(DeleteBehavior.Cascade);
 
-            builder.Entity<ApplicationUser>()
-       .HasOne(c => c.Image)
-       .WithMany()
-       .HasForeignKey(c => c.ImageId)
-       .OnDelete(DeleteBehavior.Cascade);
+       //     builder.Entity<ApplicationUser>()
+       //.HasOne(c => c.Image)
+       //.WithMany()
+       //.HasForeignKey(c => c.ImageId)
+       //.OnDelete(DeleteBehavior.Cascade);
 
         }
     }

@@ -15,17 +15,20 @@ namespace Models.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
+        public string? ImageUrl { get; set; } = "/images/defult.jpg";
+
+
 
         [ForeignKey("Parent")]
         public string ParentId { get; set; }
         [JsonIgnore]
         public  ApplicationUser Parent { get; set; }
 
-        public int? ImageId { get; set; }
+        //public int? ImageId { get; set; }
 
-        // Navigation property
-        [ForeignKey("ImageId")]
-        public Image Image { get; set; }
+        //// Navigation property
+        //[ForeignKey("ImageId")]
+        //public Image Image { get; set; }
     }
 
     

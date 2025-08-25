@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\USERR\\Desktop\\TaleOn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|c:\\users\\userr\\desktop\\taleon\\taleon.services\\controllerservice\\parentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|solutionrelative:taleon.services\\controllerservice\\parentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|c:\\users\\userr\\desktop\\taleon\\models\\entities\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|solutionrelative:models\\entities\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,32 +11,56 @@
       "RelativeMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|solutionrelative:models\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C58A697-723E-4A1A-AF30-95AB16493B4F}|AcessData\\AccessData.csproj|c:\\users\\userr\\desktop\\taleon\\acessdata\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C58A697-723E-4A1A-AF30-95AB16493B4F}|AcessData\\AccessData.csproj|solutionrelative:acessdata\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|c:\\users\\userr\\desktop\\taleon\\taleon.services\\controllerservice\\icontrollerservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|solutionrelative:taleon.services\\controllerservice\\icontrollerservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\Migrations\\20250825213041_AddImageUrlToChild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcessData\\Migrations\\20250825213041_AddImageUrlToChild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D7CB212-64F1-4C6B-873B-9A37567C4093}|TaleOn\\TaleOn.csproj|c:\\users\\userr\\desktop\\taleon\\taleon\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7CB212-64F1-4C6B-873B-9A37567C4093}|TaleOn\\TaleOn.csproj|solutionrelative:taleon\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|c:\\users\\userr\\desktop\\taleon\\taleon.services\\controllerservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|solutionrelative:taleon.services\\controllerservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|c:\\users\\userr\\desktop\\taleon\\taleon.services\\controllerservice\\parentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|solutionrelative:taleon.services\\controllerservice\\parentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C58A697-723E-4A1A-AF30-95AB16493B4F}|AcessData\\AccessData.csproj|c:\\users\\userr\\desktop\\taleon\\acessdata\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C58A697-723E-4A1A-AF30-95AB16493B4F}|AcessData\\AccessData.csproj|solutionrelative:acessdata\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|c:\\users\\userr\\desktop\\taleon\\models\\dtos\\parentprofileupdatedto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|solutionrelative:models\\dtos\\parentprofileupdatedto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|c:\\users\\userr\\desktop\\taleon\\models\\dtos\\parentprofiledto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|solutionrelative:models\\dtos\\parentprofiledto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|c:\\users\\userr\\desktop\\taleon\\models\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63A6BF9-61C2-48D8-9F67-5C1FB674134A}|Models\\Models.csproj|solutionrelative:models\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C58A697-723E-4A1A-AF30-95AB16493B4F}|AcessData\\AccessData.csproj|c:\\users\\userr\\desktop\\taleon\\acessdata\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58A697-723E-4A1A-AF30-95AB16493B4F}|AcessData\\AccessData.csproj|solutionrelative:acessdata\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|c:\\users\\userr\\desktop\\taleon\\taleon.services\\controllerservice\\icontrollerservice\\iparentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|solutionrelative:taleon.services\\controllerservice\\icontrollerservice\\iparentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9C58A697-723E-4A1A-AF30-95AB16493B4F}|AcessData\\AccessData.csproj|c:\\users\\userr\\desktop\\taleon\\acessdata\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C58A697-723E-4A1A-AF30-95AB16493B4F}|AcessData\\AccessData.csproj|solutionrelative:acessdata\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|c:\\users\\userr\\desktop\\taleon\\taleon.services\\controllerservice\\icontrollerservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|solutionrelative:taleon.services\\controllerservice\\icontrollerservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\Migrations\\20250825204739_AddImageUrlToApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AcessData\\Migrations\\20250825204739_AddImageUrlToApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D7CB212-64F1-4C6B-873B-9A37567C4093}|TaleOn\\TaleOn.csproj|c:\\users\\userr\\desktop\\taleon\\taleon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7CB212-64F1-4C6B-873B-9A37567C4093}|TaleOn\\TaleOn.csproj|solutionrelative:taleon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|c:\\users\\userr\\desktop\\taleon\\taleon.services\\controllerservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C33CE0B-C842-40C2-AADA-71A949CFEBA0}|TaleOn.Services\\TaleOn.Services.csproj|solutionrelative:taleon.services\\controllerservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,45 +111,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20250825213041_AddImageUrlToChild.cs",
+              "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\Migrations\\20250825213041_AddImageUrlToChild.cs",
+              "RelativeDocumentMoniker": "AcessData\\Migrations\\20250825213041_AddImageUrlToChild.cs",
+              "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\Migrations\\20250825213041_AddImageUrlToChild.cs",
+              "RelativeToolTip": "AcessData\\Migrations\\20250825213041_AddImageUrlToChild.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T21:30:41.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250825204739_AddImageUrlToApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\Migrations\\20250825204739_AddImageUrlToApplicationUser.cs",
+              "RelativeDocumentMoniker": "AcessData\\Migrations\\20250825204739_AddImageUrlToApplicationUser.cs",
+              "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\Migrations\\20250825204739_AddImageUrlToApplicationUser.cs",
+              "RelativeToolTip": "AcessData\\Migrations\\20250825204739_AddImageUrlToApplicationUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T20:47:39.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Models\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "Models\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T20:46:29.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ParentProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\DTOs\\ParentProfileDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ParentProfileDto.cs",
+              "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\DTOs\\ParentProfileDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ParentProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T19:53:54.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParentProfileUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\DTOs\\ParentProfileUpdateDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ParentProfileUpdateDto.cs",
+              "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\DTOs\\ParentProfileUpdateDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ParentProfileUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T19:49:53.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\Entities\\ApplicationUser.cs",
               "RelativeToolTip": "Models\\Entities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-24T23:37:14.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AcessData\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\ApplicationDbContext.cs",
               "RelativeToolTip": "AcessData\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-24T23:37:10.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Child.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\Entities\\Child.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Child.cs",
               "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\Entities\\Child.cs",
               "RelativeToolTip": "Models\\Entities\\Child.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCUAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-24T14:06:29.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn\\Program.cs",
               "RelativeDocumentMoniker": "TaleOn\\Program.cs",
@@ -137,36 +222,38 @@
               "RelativeToolTip": "TaleOn\\Program.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T14:03:48.861Z"
+              "WhenOpened": "2025-08-24T14:03:48.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IParentService.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\ControllerService\\IControllerService\\IParentService.cs",
               "RelativeDocumentMoniker": "TaleOn.Services\\ControllerService\\IControllerService\\IParentService.cs",
               "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\ControllerService\\IControllerService\\IParentService.cs",
               "RelativeToolTip": "TaleOn.Services\\ControllerService\\IControllerService\\IParentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:50:32.332Z"
+              "WhenOpened": "2025-08-24T13:50:32.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ParentService.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\ControllerService\\ParentService.cs",
               "RelativeDocumentMoniker": "TaleOn.Services\\ControllerService\\ParentService.cs",
-              "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\ControllerService\\ParentService.cs*",
-              "RelativeToolTip": "TaleOn.Services\\ControllerService\\ParentService.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAIAwwDQAAABQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\ControllerService\\ParentService.cs",
+              "RelativeToolTip": "TaleOn.Services\\ControllerService\\ParentService.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIAwwGUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T07:44:48.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\ControllerService\\IControllerService\\IAuthService.cs",
               "RelativeDocumentMoniker": "TaleOn.Services\\ControllerService\\IControllerService\\IAuthService.cs",
@@ -174,23 +261,25 @@
               "RelativeToolTip": "TaleOn.Services\\ControllerService\\IControllerService\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:50:08.57Z"
+              "WhenOpened": "2025-08-24T13:50:08.57Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ParentController.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn\\Controllers\\ParentController.cs",
               "RelativeDocumentMoniker": "TaleOn\\Controllers\\ParentController.cs",
               "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn\\Controllers\\ParentController.cs",
               "RelativeToolTip": "TaleOn\\Controllers\\ParentController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwBcAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwDMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:49:07.465Z"
+              "WhenOpened": "2025-08-24T13:49:07.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\ControllerService\\AuthService.cs",
               "RelativeDocumentMoniker": "TaleOn.Services\\ControllerService\\AuthService.cs",
@@ -198,19 +287,21 @@
               "RelativeToolTip": "TaleOn.Services\\ControllerService\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:42:58.772Z"
+              "WhenOpened": "2025-08-24T13:42:58.772Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\Repos\\UserRepo.cs",
               "RelativeDocumentMoniker": "AcessData\\Repos\\UserRepo.cs",
               "ToolTip": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\Repos\\UserRepo.cs",
               "RelativeToolTip": "AcessData\\Repos\\UserRepo.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADcAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwI0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:40:06.556Z"
+              "WhenOpened": "2025-08-24T13:40:06.556Z",
+              "EditorCaption": ""
             }
           ]
         }

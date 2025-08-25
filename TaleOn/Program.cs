@@ -100,6 +100,8 @@ namespace TaleOn
                 app.MapOpenApi();
                 app.MapScalarApiReference();
             }
+            // redirect root to swagger
+            app.MapGet("/", () => Results.Redirect("/swagger"));
 
             app.UseHttpsRedirection();
             
@@ -110,8 +112,10 @@ namespace TaleOn
 
             app.UseAuthentication();
             app.UseAuthorization();
-
             app.MapControllers();
+
+
+
 
             app.Run();
         }
