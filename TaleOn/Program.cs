@@ -1,4 +1,4 @@
-﻿using AccessData;
+using AccessData;
 using AccessData.Middleware;
 using AccessData.Repos;
 using AccessData.Repos.IRepo;
@@ -54,6 +54,8 @@ namespace TaleOn
             // Add Repositories
             builder.Services.AddScoped<IUserRepos, UserRepo>();
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<IParentService, ParentService>();
+
             //builder.Services.AddScoped<IUserService, UserService>();
             // Add OpenAPI with Bearer Authentication Support
             builder.Services.AddOpenApi("V1", options =>
@@ -98,15 +100,22 @@ namespace TaleOn
                 app.MapOpenApi();
                 app.MapScalarApiReference();
             }
+            // redirect root to swagger
+            app.MapGet("/", () => Results.Redirect("/swagger"));
 
             app.UseHttpsRedirection();
+            
+            // Serve static files from wwwroot
+            app.UseStaticFiles();
 
             app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
             app.UseAuthentication();
             app.UseAuthorization();
-
             app.MapControllers();
+
+
+
 
             app.Run();
         }

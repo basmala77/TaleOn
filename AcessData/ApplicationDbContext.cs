@@ -1,4 +1,4 @@
-﻿using AccessData.Configuration;
+using AccessData.Configuration;
 using AcessData.Configuration;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +15,8 @@ namespace AccessData
         }
         public DbSet<ApplicationUser> applicationUsers { get; set; }
         public DbSet<Child> childUsers { get; set; }
+        public DbSet<Image> Images { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
                 base.OnModelCreating(builder);
@@ -27,11 +29,18 @@ namespace AccessData
          .HasForeignKey(c => c.ParentId)
          .OnDelete(DeleteBehavior.Cascade);
 
-         builder.Entity<Child>()
-        .HasOne(c => c.Image)
-        .WithMany()
-        .HasForeignKey(c => c.ImageId)
-        .OnDelete(DeleteBehavior.Cascade);
+       //  builder.Entity<Child>()
+       // .HasOne(c => c.Image)
+       // .WithMany()
+       // .HasForeignKey(c => c.ImageId)
+       // .OnDelete(DeleteBehavior.Cascade);
+
+       //     builder.Entity<ApplicationUser>()
+       //.HasOne(c => c.Image)
+       //.WithMany()
+       //.HasForeignKey(c => c.ImageId)
+       //.OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }
