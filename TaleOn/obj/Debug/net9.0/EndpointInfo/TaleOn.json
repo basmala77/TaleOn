@@ -98,6 +98,18 @@
         }
       }
     },
+    "/api/Parent/Profile": {
+      "get": {
+        "tags": [
+          "Parent"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Values": {
       "get": {
         "tags": [

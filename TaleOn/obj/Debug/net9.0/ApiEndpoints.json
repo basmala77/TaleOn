@@ -48,6 +48,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaleOn.Controllers.ParentController",
+    "Method": "GetParentProfileAsync",
+    "RelativePath": "api/Parent/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaleOn.Controllers.ValuesController",
     "Method": "Get",
     "RelativePath": "api/Values",

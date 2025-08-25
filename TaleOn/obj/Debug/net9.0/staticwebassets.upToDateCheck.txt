@@ -1,0 +1,4 @@
+C:\Users\USERR\Desktop\TaleOn\TaleOn\wwwroot\parent-profile.html
+wwwroot\images\Ahmed.jpg
+wwwroot\images\defult.jpg
+wwwroot\parent-profile.html

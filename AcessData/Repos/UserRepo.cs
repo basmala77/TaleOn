@@ -1,4 +1,4 @@
-﻿using AccessData.Repos.IRepo;
+using AccessData.Repos.IRepo;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -51,7 +51,7 @@ namespace AccessData.Repos
             return await db.childUsers.CountAsync(c => c.ParentId == parentId);
         }
 
-        public async Task<ApplicationUser> GetUserByID(int userID)
+        public async Task<ApplicationUser> GetUserByID(string userID)
         {
             var user = await db.applicationUsers.FindAsync(userID);
             return user ?? throw new InvalidOperationException("User not found.");

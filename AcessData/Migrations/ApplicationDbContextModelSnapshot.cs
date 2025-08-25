@@ -298,18 +298,16 @@ namespace AccessData.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("FileExtension")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FileName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FilePath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("FileSize")
+                    b.Property<long?>("FileSize")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");
@@ -324,9 +322,14 @@ namespace AccessData.Migrations
                     b.Property<int>("ChildrenCount")
                         .HasColumnType("int");
 
+                    b.Property<int?>("ImageId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("ImageId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -399,6 +402,16 @@ namespace AccessData.Migrations
                     b.Navigation("Image");
 
                     b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("Models.Entities.ApplicationUser", b =>
+                {
+                    b.HasOne("Models.Entities.Image", "Image")
+                        .WithMany()
+                        .HasForeignKey("ImageId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.Navigation("Image");
                 });
 
             modelBuilder.Entity("Models.Entities.ApplicationUser", b =>

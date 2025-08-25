@@ -5141,23 +5141,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "C:\\Users\\USERR\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\TaleOn\\TaleOn\\TaleOn.csproj",
+      "projectUniqueName": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn\\TaleOn.csproj",
       "projectName": "TaleOn",
-      "projectPath": "D:\\ASP\\TaleOn\\TaleOn\\TaleOn.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\TaleOn\\TaleOn\\obj\\",
+      "projectPath": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn\\TaleOn.csproj",
+      "packagesPath": "C:\\Users\\USERR\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USERR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5166,21 +5166,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\ASP\\TaleOn\\AcessData\\AccessData.csproj": {
-              "projectPath": "D:\\ASP\\TaleOn\\AcessData\\AccessData.csproj"
+            "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\AccessData.csproj": {
+              "projectPath": "C:\\Users\\USERR\\Desktop\\TaleOn\\AcessData\\AccessData.csproj"
             },
-            "D:\\ASP\\TaleOn\\Models\\Models.csproj": {
-              "projectPath": "D:\\ASP\\TaleOn\\Models\\Models.csproj"
+            "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\USERR\\Desktop\\TaleOn\\Models\\Models.csproj"
             },
-            "D:\\ASP\\TaleOn\\TaleOn.Services\\TaleOn.Services.csproj": {
-              "projectPath": "D:\\ASP\\TaleOn\\TaleOn.Services\\TaleOn.Services.csproj"
+            "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\TaleOn.Services.csproj": {
+              "projectPath": "C:\\Users\\USERR\\Desktop\\TaleOn\\TaleOn.Services\\TaleOn.Services.csproj"
             }
           }
         }
@@ -5271,7 +5270,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
