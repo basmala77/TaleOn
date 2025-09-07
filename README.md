@@ -1,13 +1,5 @@
 # 🚀 Hekaity - Interactive Story Management System
 
-[![.NET](https://img.shields.io/badge/.NET-9.0-512BD4)](https://dotnet.microsoft.com/download/dotnet/9.0)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Swagger](https://img.shields.io/badge/Docs-Swagger-85EA2D)](https://localhost:5001/swagger)
-[![Scalar](https://img.shields.io/badge/Docs-Scalar-1A1F35)](https://localhost:5001/scalar)
-
-> **Note**: This is the Backend API for Hekaity. For mobile app, see [Hekaity_Mobile](https://github.com/yourusername/Hekaity_Mobile).
-> **Screenshots**: Will be added soon once UI is finalized.
-
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-key-features)
@@ -20,22 +12,6 @@
 ## 🌟 Overview
 
 Hekaity is an integrated interactive story management system, specifically designed to provide a rich and smooth user experience. The system is built on a modern and scalable architecture using the latest .NET technologies.
-
-### 🖥️ Tech Stack
-
-- **Backend Framework**: ASP.NET Core 9.0
-- **Database**: SQL Server with Entity Framework Core
-- **Caching**: Redis
-- **Authentication**: JWT + OTP
-- **Payment Processing**: PayPal Sandbox Integration
-- **API Documentation**: Swagger UI + Scalar
-- **Containerization**: Docker (Optional)
-
-### 📱 Screenshots
-
-| Swagger UI | API Response |
-|------------|--------------|
-| ![Swagger](https://via.placeholder.com/400x250?text=Swagger+UI) | ![API](https://via.placeholder.com/400x250?text=API+Response) |
 
 ## ✨ Key Features
 
@@ -71,15 +47,15 @@ Hekaity is an integrated interactive story management system, specifically desig
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Hekaity_BackEnd.git
-   cd Hekaity_BackEnd
+   git clone https://github.com/yourusername/TaleOn_BackEnd.git
+   cd TaleOn_BackEnd
    ```
 
 2. Update `appsettings.json` with your configuration:
    ```json
    {
      "ConnectionStrings": {
-       "DefaultConnection": "Server=.;Database=HekaityDB;Trusted_Connection=True;TrustServerCertificate=True;"
+       "DefaultConnection": "Server=.;Database=TaleOnDB;Trusted_Connection=True;TrustServerCertificate=True;"
      },
      "Jwt": {
        "Key": "YourSuperSecretKey_Minimum32CharactersLong"
@@ -105,9 +81,6 @@ Hekaity is an integrated interactive story management system, specifically desig
    dotnet run --project TaleOn
    ```
 
-5. Access the API documentation:
-   - Swagger UI: https://localhost:5001/swagger
-   - Scalar: https://localhost:5001/scalar
 
 ### Supported Browsers
 - Chrome (latest version)
@@ -144,15 +117,12 @@ Hekaity is an integrated interactive story management system, specifically desig
    dotnet run --project TaleOn
    ```
 
-6. **Open in browser**
-   ```
-   https://localhost:5001/swagger
-   ```
+
 
 ## 📁 Project Structure
 
 ```
-Hekaity_BackEnd/
+TaleOn_BackEnd/
 ├── TaleOn/              # Main API project
 ├── AccessData/          # Data access layer
 ├── Models/              # Data models and DTOs
@@ -188,26 +158,6 @@ The following environment variables are required:
 - `PayPal:ClientId` - Your PayPal Sandbox API client ID
 - `PayPal:ClientSecret` - Your PayPal Sandbox API secret key
 
-## 🧪 Running Tests
-
-To run the test suite and verify everything is working correctly:
-
-```bash
-dotnet test
-```
-
-## 🐳 Docker Support
-
-You can build and run the application using Docker:
-
-```bash
-# Build the Docker image
-docker build -t hekaity-backend .
-
-# Run the container
-docker run -p 5001:5001 hekaity-backend
-```
-
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
@@ -228,11 +178,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 For support, questions, or feature requests:
 - 📧 Email: your.email@example.com
-- 📝 [Open an Issue](https://github.com/yourusername/Hekaity_BackEnd/issues)
+- 📝 [Open an Issue](https://github.com/yourusername/TaleOn_BackEnd/issues)
 - 💬 Join our [Discord Server](https://discord.gg/your-invite-link)
 
 ---
 
 <div align="center">
-  Made with ❤️ by Hekaity Team
+  Made with ❤️ by TaleOn Team
 </div>
