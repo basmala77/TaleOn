@@ -1,15 +1,4 @@
-# 🚀 Hekaity - Interactive Story Management System
-
-## 📋 Table of Contents
-- [Overview](#-overview)
-- [Features](#-key-features)
-- [Requirements](#-requirements)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [Technical Documentation](#-technical-documentation)
-- [Contributing](#-contributing)
-
-## 🌟 Overview# 🚀 Hekaity - Interactive Story Management System
+🚀 Hekaity - Interactive Story Management System
 
 [![.NET](https://img.shields.io/badge/.NET-9.0-512BD4)](https://dotnet.microsoft.com/download/dotnet/9.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -46,8 +35,7 @@ Hekaity is an integrated interactive story management system, specifically desig
 
 | Swagger UI | 
 |------------|
-| ![Swagger](<img width="1024" height="1536" alt="A Brave Boy in Space" src="https://github.com/user-attachments/assets/e9c59a69-b854-41a0-a4ab-8204c0277419" />
-) |
+|<img width="1080" height="1365" alt="Screenshot 2025-09-07 202615" src="https://github.com/user-attachments/assets/59db1c75-5e2b-47f7-9efb-dc1a776797ab" />|
 
 ## ✨ Key Features
 
