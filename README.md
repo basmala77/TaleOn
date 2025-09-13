@@ -35,7 +35,8 @@ TaleOn is an integrated interactive story management system, specifically design
 
 | Swagger UI | 
 |------------|
-| <img src="https://github.com/user-attachments/assets/9ffb4a80-e087-429b-b032-ec6c5b41255c" alt="Swagger UI Screenshot" width="70%" /> |
+| <img width="1080" height="1920" alt="Screenshot 2025-09-13 234723" src="https://github.com/user-attachments/assets/304ed929-2a58-41af-865d-fedf998cc61a" />
+ |
 
 ## ✨ Key Features
 
