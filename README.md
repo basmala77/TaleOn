@@ -1,16 +1,16 @@
-## Hekaity - Interactive Story Management System
+## TaleOn - Interactive Story Management System
 
 [![.NET](https://img.shields.io/badge/.NET-9.0-512BD4)](https://dotnet.microsoft.com/download/dotnet/9.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Swagger](https://img.shields.io/badge/Docs-Swagger-85EA2D)](https://localhost:5001/swagger)
-[![Scalar](https://img.shields.io/badge/Docs-Scalar-1A1F35)](https://localhost:5001/scalar)
 
-> **Note**: This is the Backend API for Hekaity. For mobile app, see [Hekaity_Mobile](https://github.com/yourusername/Hekaity_Mobile).
+> **Note**: This is the Backend API for TaleOn. For mobile app, see [TaleOn_Mobile](https://github.com/yourusername/TaleOn_Mobile).
 > **Screenshots**: Will be added soon once UI is finalized.
 
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-key-features)
+- [API Endpoints](#-api-endpoints)
 - [Requirements](#-requirements)
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
@@ -19,7 +19,7 @@
 
 ## 🌟 Overview
 
-Hekaity is an integrated interactive story management system, specifically designed to provide a rich and smooth user experience. The system is built on a modern and scalable architecture using the latest .NET technologies.
+TaleOn is an integrated interactive story management system, specifically designed to provide a rich and smooth user experience. The system is built on a modern and scalable architecture using the latest .NET technologies.
 
 ### 🖥️ Tech Stack
 
@@ -35,7 +35,8 @@ Hekaity is an integrated interactive story management system, specifically desig
 
 | Swagger UI | 
 |------------|
-|<img width="1080" height="1365" alt="Screenshot 2025-09-07 202615" src="https://github.com/user-attachments/assets/59db1c75-5e2b-47f7-9efb-dc1a776797ab" />|
+|<img width="1080" height="1365" alt="Screenshot 2025-09-07 202615" src="<img width="1080" height="1920" alt="Screenshot 2025-09-13 234723" src="https://github.com/user-attachments/assets/9ffb4a80-e087-429b-b032-ec6c5b41255c" />
+" />|
 
 ## ✨ Key Features
 
@@ -53,10 +54,65 @@ Hekaity is an integrated interactive story management system, specifically desig
 - Redis caching system
 - Fast data loading
 - Efficient request handling
+- Asynchronous operations for better scalability
+
+### 📚 Story Generation
+- AI-powered story generation
+- Image generation for story scenes
+- Multi-language support (Arabic)
+- Interactive story progression
+
+### 💳 Payment System
+- PayPal integration for secure payments
+- Payment status tracking
+- Transaction history
+- Sandbox environment for testing
 
 ### 📱 API Features
 - Interactive documentation with Swagger
 - Full RESTful API support
+- JWT authentication
+- Role-based access control
+- Input validation
+- Global exception handling
+
+## 🌐 API Documentation
+
+Explore our complete API documentation and test the endpoints using our Postman collection:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://taleon-3533.postman.co/workspace/TaleOn~66e851b1-779b-47da-abcf-3bbbb47c4ef7/collection/42507542-8dbf6a81-ee9c-41d8-b229-0f2600135bff?action=share&source=copy-link&creator=42507542)
+
+## 📚 API Endpoints
+
+### Authentication
+- `POST /api/Auth/login` - User login
+- `POST /api/Auth/register` - User registration
+- `POST /api/Auth/verify-otp` - OTP verification
+- `POST /api/Auth/forgot-password` - Password recovery
+
+### Parent Features
+- `GET /api/Parent/profile` - Get parent profile
+- `PUT /api/Parent/update-profile` - Update parent profile
+- `GET /api/Parent/children` - Get all children
+- `POST /api/Parent/add-child` - Add a new child
+
+### Child Features
+- `GET /api/Children` - Get child details
+- `POST /api/Children` - Create child profile
+- `PUT /api/Children/{id}` - Update child profile
+- `GET /api/Children/{id}/stories` - Get child's stories
+
+### Story Features
+- `POST /api/Story/generate` - Generate new story
+- `GET /api/Story/{id}` - Get story details
+- `GET /api/Story/child/{childId}` - Get all stories for a child
+- `POST /api/Story/rate` - Rate a story
+
+### Payment Features
+- `GET /api/Payment/token` - Get payment token
+- `POST /api/Payment/create-order` - Create payment order
+- `POST /api/Payment/capture` - Capture payment
+- `GET /api/Payment/history` - Get payment history
 - Detailed API documentation with Scalar
 
 ## 🛠️ Quick Start
@@ -71,15 +127,15 @@ Hekaity is an integrated interactive story management system, specifically desig
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Hekaity_BackEnd.git
-   cd Hekaity_BackEnd
+   git clone https://github.com/yourusername/TaleOn_BackEnd.git
+   cd TaleOn_BackEnd
    ```
 
 2. Update `appsettings.json` with your configuration:
    ```json
    {
      "ConnectionStrings": {
-       "DefaultConnection": "Server=.;Database=HekaityDB;Trusted_Connection=True;TrustServerCertificate=True;"
+       "DefaultConnection": "Server=.;Database=TaleOnDB;Trusted_Connection=True;TrustServerCertificate=True;"
      },
      "Jwt": {
        "Key": "YourSuperSecretKey_Minimum32CharactersLong"
@@ -144,20 +200,15 @@ Hekaity is an integrated interactive story management system, specifically desig
    dotnet run --project TaleOn
    ```
 
-6. **Open in browser**
-   ```
-   https://localhost:5001/swagger
-   ```
-
-## 📁 Project Structure
+## 🏗️ Project Structure
 
 ```
-Hekaity_BackEnd/
-├── TaleOn/              # Main API project
-├── AccessData/          # Data access layer
-├── Models/              # Data models and DTOs
-├── TaleOn.Services/     # Business logic layer
-└── Tests/               # Unit tests
+TaleOn_BackEnd/
+├── AcessData/          # Data access layer and database context
+├── Models/             # Domain models and DTOs
+├── TaleOn/             # Main API project (Startup, Controllers)
+├── TaleOn.Services/    # Business logic services
+└── README.md           # Project documentation
 ```
 
 ## 📚 Technical Documentation
@@ -185,7 +236,7 @@ Hekaity_BackEnd/
 - `PayPal:ClientId` - Your PayPal Sandbox API client ID
 - `PayPal:ClientSecret` - Your PayPal Sandbox API secret key
 
-## 🤝 Contributing
+## 🤝 Contributing to TaleOn
 
 We welcome contributions! Please follow these steps:
 
@@ -199,17 +250,10 @@ We welcome contributions! Please follow these steps:
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## 📞 Support & Contact
-
-For support, questions, or feature requests:
-- 📧 Email: your.email@example.com
-- 📝 [Open an Issue](https://github.com/yourusername/Hekaity_BackEnd/issues)
-- 💬 Join our [Discord Server](https://discord.gg/your-invite-link)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
-  Made with ❤️ by Hekaity Team
+  Made with ❤️ by Your Team | 2025
 </div>
