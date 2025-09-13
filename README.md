@@ -65,13 +65,12 @@ TaleOn is an integrated interactive story management system, specifically design
 ### 💳 Payment System
 - PayPal integration for secure payments
 - Payment status tracking
-- Transaction history
 - Sandbox environment for testing
 
 ### 📱 API Features
 - Interactive documentation with Swagger
 - Full RESTful API support
-- JWT authentication
+- Identity authentication
 - Role-based access control
 - Input validation
 - Global exception handling
@@ -88,32 +87,25 @@ Explore our complete API documentation and test the endpoints using our Postman 
 - `POST /api/Auth/login` - User login
 - `POST /api/Auth/register` - User registration
 - `POST /api/Auth/verify-otp` - OTP verification
-- `POST /api/Auth/forgot-password` - Password recovery
 
 ### Parent Features
 - `GET /api/Parent/profile` - Get parent profile
 - `PUT /api/Parent/update-profile` - Update parent profile
-- `GET /api/Parent/children` - Get all children
-- `POST /api/Parent/add-child` - Add a new child
 
 ### Child Features
-- `GET /api/Children` - Get child details
-- `POST /api/Children` - Create child profile
-- `PUT /api/Children/{id}` - Update child profile
+- `GET /api/Children` - Get child
+- `POST /api/Children` - Create child 
+- `PUT /api/Children/{id}` - Update child
+- `PUT /api/Children/{id}` - Get interests
+- `PUT /api/Children/{id}` - Add interests
 - `GET /api/Children/{id}/stories` - Get child's stories
 
 ### Story Features
-- `POST /api/Story/generate` - Generate new story
-- `GET /api/Story/{id}` - Get story details
-- `GET /api/Story/child/{childId}` - Get all stories for a child
-- `POST /api/Story/rate` - Rate a story
+- `POST /api/Story/generate` - Generate story
 
 ### Payment Features
 - `GET /api/Payment/token` - Get payment token
 - `POST /api/Payment/create-order` - Create payment order
-- `POST /api/Payment/capture` - Capture payment
-- `GET /api/Payment/history` - Get payment history
-- Detailed API documentation with Scalar
 
 ## 🛠️ Quick Start
 
